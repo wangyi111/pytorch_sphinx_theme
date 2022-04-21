@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -61,7 +61,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.2;
   color: inherit;
 }
@@ -5379,7 +5379,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5481,7 +5481,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", 微软雅黑, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9463,13 +9463,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 @font-face {
   font-family: FreightSans;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   src: url("../fonts/FreightSans/freight-sans-medium.woff2") format("woff2"), url("../fonts/FreightSans/freight-sans-medium.woff") format("woff");
 }
 @font-face {
   font-family: FreightSans;
-  font-weight: 500;
+  font-weight: 400;
   font-style: italic;
   src: url("../fonts/FreightSans/freight-sans-medium-italic.woff2") format("woff2"), url("../fonts/FreightSans/freight-sans-medium-italic.woff") format("woff");
 }
@@ -9506,7 +9506,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 @font-face {
   font-family: IBMPlexMono;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   unicode-range: u+0020-007f;
   src: local("IBMPlexMono-Medium"), url("../fonts/IBMPlexMono/IBMPlexMono-Medium.woff2") format("woff2"), url("../fonts/IBMPlexMono/IBMPlexMono-Medium.woff") format("woff");
@@ -10187,7 +10187,7 @@ article.pytorch-article blockquote {
   line-height: 1.375rem;
   color: #262626;
   letter-spacing: 0.01px;
-  font-weight: 500;
+  font-weight: 400;
 }
 article.pytorch-article table {
   /* margin-bottom: 2.5rem; */
@@ -12048,7 +12048,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 }
 .pytorch-right-menu .pytorch-side-scroll > ul > li > a.reference.internal {
   color: #262626;
-  font-weight: 500;
+  font-weight: 400;
 }
 .pytorch-right-menu .pytorch-side-scroll ul li {
   position: relative;
