@@ -12302,3 +12302,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 }
 
 /*# sourceMappingURL=theme.css.map */
+.align-center {
+  display: block;
+  margin: auto;
+}
